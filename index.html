@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rokomari Books</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>The Rokomari</h1>
+    </div>
+    <form action="" method="get">
+      <label for="Book">Book</label><br />
+      <input type="text" class="book" required /><br />
+      <label for="Author">Author</label><br />
+      <input type="text" class="author" required /><br />
+      <label for="Year">Year</label><br />
+      <input type="text" class="year" required /><br />
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <div class="as">
+      <table cellpadding="10">
+        <thead>
+          <tr>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody class="Book-List"></tbody>
+      </table>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

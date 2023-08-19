@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    height: 17rem;
+    width: 25rem;
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: none;
+
+}
+label {
+    margin-top: 0.8rem;
+    display: block;
+}
+.btn {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    background-color: chocolate;
+    color: #fff;
+    padding: 0.5rem;
+    margin-left: 10px;
+}
+
+table {
+ width: 25rem;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ margin-top: 4rem;
+ border-collapse: collapse;
+ outline: 1px black;
+
+
+
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+ thead tr th {
+   background-color: #f2f2f2;
+ }
